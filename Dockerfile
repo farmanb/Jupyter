@@ -1,4 +1,5 @@
-FROM sagemath/sagemath:latest
+#FROM sagemath/sagemath:latest
+FROM ghcr.io/sagemath/sage-binder-env:10.4
 
 #RUN sudo apt-get -y update
 #RUN sudo apt-get -y install git
